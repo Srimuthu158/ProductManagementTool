@@ -17,6 +17,9 @@ Technologies Used
 
    Project Structure
 The project follows a standard Spring Boot MVC architecture with a clear separation of concerns. Below is the directory structure:
+
+<img width="1473" height="1301" alt="image" src="https://github.com/user-attachments/assets/08f79d32-5d67-484e-a9eb-708f59966953" />
+
 productManagementTool/
 ├── src/
 │   ├── main/
