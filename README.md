@@ -19,47 +19,8 @@ Technologies Used
 The project follows a standard Spring Boot MVC architecture with a clear separation of concerns. Below is the directory structure:
 
 <img width="1473" height="1301" alt="image" src="https://github.com/user-attachments/assets/08f79d32-5d67-484e-a9eb-708f59966953" />
+<img width="1497" height="177" alt="image" src="https://github.com/user-attachments/assets/c0b660d3-8a99-48ee-81ec-bd6a4244a697" />
 
-productManagementTool/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── example/  # Base package for all Java classes
-│   │   │           ├── ProductManagementToolApplication.java  # Main application class
-│   │   │           ├── controller/  # REST controllers
-│   │   │           │   ├── CategoryController.java
-│   │   │           │   ├── AttributeController.java
-│   │   │           │   └── ProductController.java
-│   │   │           ├── service/  # Business logic layer
-│   │   │           │   ├── CategoryService.java  # Interface
-│   │   │           │   ├── CategoryServiceImpl.java  # Implementation
-│   │   │           │   ├── AttributeService.java  # Interface
-│   │   │           │   ├── AttributeServiceImpl.java  # Implementation
-│   │   │           │   ├── ProductService.java  # Interface
-│   │   │           │   └── ProductServiceImpl.java  # Implementation
-│   │   │           ├── repository/  # Data access layer
-│   │   │           │   ├── CategoryRepository.java
-│   │   │           │   ├── AttributeRepository.java
-│   │   │           │   ├── ProductRepository.java
-│   │   │           │   └── ProductAttributeRepository.java
-│   │   │           ├── model/  # Entity classes
-│   │   │           │   ├── Category.java
-│   │   │           │   ├── Attribute.java
-│   │   │           │   ├── Product.java
-│   │   │           │   └── ProductAttribute.java
-│   │   │           └── config/  # Configuration files (if any)
-│   │   └── resources/  # Configuration and static resources
-│   │       ├── application.properties  # Database and server settings
-│   │       └── application.yml (optional)
-│   └── test/
-│       └── java/
-│           └── com/
-│               └── example/  # Test classes (if added)
-├── pom.xml   Maven build file
-├── .gitignore   Ignored files for Git
-└── README.md   This file
-text- com.example: The base package houses all Java classes, ensuring Spring component scanning works correctly.
 - controller: Contains REST controllers handling HTTP requests.
 - service: Implements business logic with interfaces and their implementations.
 - repository: Defines JPA repositories for database operations.
