@@ -102,19 +102,8 @@ Run SELECT * FROM CATEGORY;, SELECT * FROM ATTRIBUTE;, etc., to verify data.
 
 Diagrams
 Entity-Relationship Diagram (ERD)
-text[Category] (id, name)
-   | 1:N
-   v
-[Attribute] (id, name, dataType, category_id)
-   | 1:N
-   v
-[ProductAttribute] (id, value, attribute_id, product_id)
-   ^
-   | 1:N
-[Product] (id, name, price, description, category_id)
-   ^
-   | 1:N
-[Category]
+<img width="958" height="497" alt="image" src="https://github.com/user-attachments/assets/59b72b72-4cd3-4505-9939-2678422fb121" />
+
 
 Description: Category links to multiple Attributes and Products. Attribute and Product are joined via ProductAttribute to store attribute values.
 
